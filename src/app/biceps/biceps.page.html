@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>BICEPS</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" text="Accueil" ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let item of biceps" >
+    <ion-img [src]="item.img">
+    </ion-img>
+    <ion-label>
+      <h2>{{item.titre}}</h2>
+      <h3>{{item.description}}</h3>
+    </ion-label>
+  </ion-item>
+</ion-content>

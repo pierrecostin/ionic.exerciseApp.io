@@ -1,0 +1,14 @@
+Ion-card {
+    display: block;
+}
+Ion-header {
+    display: block;
+}
+
+@font-face{
+ font-family: Sansita Swashed;
+    src: url('../assets/fonts/SansitaSwashed.woff2');
+}
+ion-title{
+    font-family: 'Sansita Swashed' !important;
+}
